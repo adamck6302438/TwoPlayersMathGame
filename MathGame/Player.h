@@ -12,6 +12,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Player : NSObject
 
+@property (nonatomic, assign) NSInteger life;
+@property (nonatomic, strong) NSString* name;
+@property (nonatomic, assign) NSInteger solution;
+
+
+- (instancetype)initWithName: (NSString *)name;
+- (NSString*) generateQuestionWithNumber1: (NSInteger) n1 andNumber2: (NSInteger) n2;
+- (BOOL) checkAnswer: (NSInteger) input;
 @end
 
 NS_ASSUME_NONNULL_END

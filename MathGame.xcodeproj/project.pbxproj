@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0D06D06B2280890D000A77DB /* Build configuration list for PBXProject "TwoPlayerMathGame" */;
+			buildConfigurationList = 0D06D06B2280890D000A77DB /* Build configuration list for PBXProject "MathGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -542,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D06D06B2280890D000A77DB /* Build configuration list for PBXProject "TwoPlayerMathGame" */ = {
+		0D06D06B2280890D000A77DB /* Build configuration list for PBXProject "MathGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D06D09A2280890E000A77DB /* Debug */,
