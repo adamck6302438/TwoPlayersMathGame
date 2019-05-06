@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MathGame.xcodeproj">
+      location = "self:/Users/Frances/Desktop/Lighthouse Lab/W2D1/MathGame/TwoPlayerMathGame.xcodeproj">
    </FileRef>
 </Workspace>

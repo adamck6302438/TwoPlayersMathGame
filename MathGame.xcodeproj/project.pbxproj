@@ -15,6 +15,7 @@
 		0D06D0832280890E000A77DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D06D0822280890E000A77DB /* main.m */; };
 		0D06D08D2280890E000A77DB /* MathGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D06D08C2280890E000A77DB /* MathGameTests.m */; };
 		0D06D0982280890E000A77DB /* MathGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D06D0972280890E000A77DB /* MathGameUITests.m */; };
+		0D06D0A7228091BE000A77DB /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D06D0A6228091BE000A77DB /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0D06D0932280890E000A77DB /* MathGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D06D0972280890E000A77DB /* MathGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathGameUITests.m; sourceTree = "<group>"; };
 		0D06D0992280890E000A77DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D06D0A5228091BE000A77DB /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		0D06D0A6228091BE000A77DB /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				0D06D07E2280890E000A77DB /* LaunchScreen.storyboard */,
 				0D06D0812280890E000A77DB /* Info.plist */,
 				0D06D0822280890E000A77DB /* main.m */,
+				0D06D0A5228091BE000A77DB /* Player.h */,
+				0D06D0A6228091BE000A77DB /* Player.m */,
 			);
 			path = MathGame;
 			sourceTree = "<group>";
@@ -210,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0D06D06B2280890D000A77DB /* Build configuration list for PBXProject "MathGame" */;
+			buildConfigurationList = 0D06D06B2280890D000A77DB /* Build configuration list for PBXProject "TwoPlayerMathGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D06D0A7228091BE000A77DB /* Player.m in Sources */,
 				0D06D0782280890D000A77DB /* ViewController.m in Sources */,
 				0D06D0832280890E000A77DB /* main.m in Sources */,
 				0D06D0752280890D000A77DB /* AppDelegate.m in Sources */,
@@ -536,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D06D06B2280890D000A77DB /* Build configuration list for PBXProject "MathGame" */ = {
+		0D06D06B2280890D000A77DB /* Build configuration list for PBXProject "TwoPlayerMathGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D06D09A2280890E000A77DB /* Debug */,
